@@ -12,6 +12,6 @@ The game will make use of the location features in Android to track the user’s
 
 ![class-diagram](Sequence%20diagrams/Starting%20a%20game.jpg)
 
-![class-diagram](Sequence_diagrams/Keystone_Location.jpg)
+![class-diagram](Sequence%20diagrams/Keystone%20Location.jpg)
 
 
