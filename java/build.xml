@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build">
+	<path id="build.classpath">
+		<pathelement location="classes"/>
+	</path>
+	<target name="init">
+		<mkdir dir="classes"/>
+	</target>
+	<target name="clean">
+		<delete dir="classes"/>
+	</target>
+	<target depends="init" name="build">
+		<javac srcdir="." destdir="classes" source="1.5" target="1.5" fork="yes">
+			<classpath refid="build.classpath"/>
+			<include name="EnergyBoostWildCard.java"/>
+			<include name="GiveItUpWildCard.java"/>
+			<include name="PaymentServer.java"/>
+			<include name="GamePack.java"/>
+			<include name="UserInterface.java"/>
+			<include name="Message.java"/>
+			<include name="GameServer.java"/>
+			<include name="Game.java"/>
+			<include name="NavigationalArrow.java"/>
+			<include name="Map.java"/>
+			<include name="StartingLocation.java"/>
+			<include name="IntermediateLocation.java"/>
+			<include name="RegenerationLocation.java"/>
+			<include name="QuestionLocation.java"/>
+			<include name="WildcardLocation.java"/>
+			<include name="ExitLocation.java"/>
+			<include name="Location.java"/>
+			<include name="KeystoneLocation.java"/>
+			<include name="Keystone.java"/>
+			<include name="Item.java"/>
+			<include name="WildCard.java"/>
+			<include name="QuestionImmunitySpellWildCard.java"/>
+			<include name="Question.java"/>
+			<include name="QuestionManager.java"/>
+			<include name="Orcale.java"/>
+			<include name="GoogMapWebService.java"/>
+			<include name="FacebookAPI.java"/>
+			<include name="Status.java"/>
+			<include name="Player.java"/>
+			<include name="Bag.java"/>
+		</javac>
+	</target>
+</project>
