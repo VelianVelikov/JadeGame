@@ -10,8 +10,8 @@ The game will make use of the location features in Android to track the user’s
 
 ![class-diagram](JADE_Game_class_diagram.jpg)
 
-![class-diagram](Sequence diagrams/Starting a game.jpg)
+![class-diagram](Sequence_diagrams/Starting_a_game.jpg)
 
-![class-diagram](Sequence diagrams/Keystone Location.jpg)
+![class-diagram](Sequence_diagrams/Keystone_Location.jpg)
 
 
